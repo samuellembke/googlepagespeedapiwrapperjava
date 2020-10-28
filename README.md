@@ -18,7 +18,7 @@ Then add the following to your dependencies:
 <dependency>
     <groupId>com.github.samuellembke</groupId>
     <artifactId>googlepagespeedapiwrapperjava</artifactId>
-    <version>1.3-RELEASE</version>
+    <version>1.3.4-RELEASE</version>
 </dependency>
 ```
 
