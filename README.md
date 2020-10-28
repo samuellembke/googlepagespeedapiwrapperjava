@@ -30,13 +30,19 @@ GooglePagespeed pagespeed = new GooglePagespeed.Builder().build();
 ```
 You can specify the network timeout for the API request and a custom api server url
 ```java
-GooglePagespeed pagespeed = new GooglePagespeed.Builder().timeout(120, TimeUnit.SECONDS).api("https://api.example.com").build();
+GooglePagespeed pagespeed = new GooglePagespeed.Builder()
+    .timeout(120, TimeUnit.SECONDS)
+    .api("https://api.example.com")
+    .build();
 ```
 
 ### PagespeedRequest
 You now need to create a PagespeedRequest
 ```java
-PagespeedRequest request = new PagespeedRequest.Builder().key("API-KEY").url("https://example.page.to.test.com").build();
+PagespeedRequest request = new PagespeedRequest.Builder()
+    .key("API-KEY")
+    .url("https://example.page.to.test.com")
+    .build();
 ```
 ### Executing
 Now you can execute the request and retrieve a PagespeedResponse
