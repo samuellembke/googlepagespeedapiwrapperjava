@@ -25,11 +25,11 @@
 </repositories>
 
 <dependencies>
-    <dependency>
-        <groupId>com.github.samuellembke</groupId>
-        <artifactId>googlepagespeedapiwrapperjava</artifactId>
-        <version>a01d5109b0d23531f7934ec6f05a5493d4677b36</version>
-    </dependency>
+        <dependency>
+            <groupId>com.github.samuellembke</groupId>
+            <artifactId>googlepagespeedapiwrapperjava</artifactId>
+            <version>1.3-RELEASE</version>
+        </dependency>
 </dependencies>
 ```
 
