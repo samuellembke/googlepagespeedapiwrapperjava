@@ -2,6 +2,19 @@
 
 ##### This is a java wrapper for the google pagespeed api
 
+
+* GooglePagespeed Object
+    * Builder
+        * You can specify a custom api key and network timeout.
+* PagespeedRequest Object
+    * Builder
+        * You can specify the api key for the specific request, and the url to run the pagespeed test on
+* PagespeedResponse Object
+    * getResponse > String json response from google API Server
+>
+
+
+* For response documentation click [here](https://developers.google.com/speed/docs/insights/v5/reference/pagespeedapi/runpagespeed#response)
 ###### Installing with maven
 ```xml
 <repositories>
