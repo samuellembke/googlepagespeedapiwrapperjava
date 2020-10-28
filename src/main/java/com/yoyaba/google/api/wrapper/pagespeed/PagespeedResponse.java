@@ -8,6 +8,10 @@ public class PagespeedResponse implements Serializable {
 
     protected PagespeedResponse() { }
 
+    /**
+     * Returns Google Pagespeed response in json (String format)
+     * @return Google Pagespeed response in json (String format)
+     */
     public String getResponse() {
         return response;
     }

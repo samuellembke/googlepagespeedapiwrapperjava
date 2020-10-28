@@ -6,11 +6,26 @@
 
     <groupId>com.yoyaba.google.api.wrapper</groupId>
     <artifactId>pagespeed-api-wrapper</artifactId>
-    <version>1.1-RELEASE</version>
+    <version>1.2</version>
+    <packaging>jar</packaging>
 
 
     <name>Pagespeed API Wrapper</name>
+    <description>A Java wrapper for the google pagespeed API</description>
     <url>https://github.com/samuellembke/googlepagespeedapiwrapperjava</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://raw.githubusercontent.com/samuellembke/googlepagespeedapiwrapperjava/master/LICENSE</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/samuellembke/googlepagespeedapiwrapperjava.git</connection>
+        <developerConnection>scm:git:ssh://github.com/samuellembke/googlepagespeedapiwrapperjava.git</developerConnection>
+        <url>https://github.com/samuellembke/googlepagespeedapiwrapperjava</url>
+    </scm>
 
     <developers>
         <developer>

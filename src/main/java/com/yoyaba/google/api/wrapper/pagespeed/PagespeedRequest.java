@@ -26,6 +26,10 @@ public final class PagespeedRequest {
         return key;
     }
 
+    /**
+     * PagespeedRequest Builder.
+     * Build a new PagespeedRequest Object.
+     */
     public static class Builder {
         private PagespeedRequest request;
 
@@ -33,16 +37,31 @@ public final class PagespeedRequest {
             this.request = new PagespeedRequest();
         }
 
+        /**
+         * Set url to perform the pagespeed test on.
+         * @param url URL to perform the pagespeed test on.
+         * @return Builder
+         */
         public Builder url(String url) {
             this.request.url = url;
             return this;
         }
 
+        /**
+         * Set google api key.
+         * @param key Google API key.
+         * @return Builder
+         */
         public Builder key(String key) {
             this.request.key = key;
             return this;
         }
 
+        /**
+         * Build a new PagespeedRequest
+         * @return PagespeedRequest
+         * @throws GooglePagespeedException
+         */
         public PagespeedRequest build() throws GooglePagespeedException {
             if(this.request.url == null) {
                 throw new GooglePagespeedURLNotSpecifiedException();
